@@ -1,0 +1,82 @@
+<!DOCTYPE html>                 <!--doctype declaration-->
+<html>                           <!--html start tag-->
+<head>                            <!--head start tag-->
+
+<title>
+Student Sign-up form
+</title>
+
+<link rel="stylesheet" type="text/css" href="style3.4.css">                 <!--importing external stylesheet-->
+</head>                                                                        <!--head end tag-->
+
+<body>                                                                      <!--body start tag-->
+<form>                                                                            <!--form start tag-->
+<legend align="center" style="color:red"><b>STUDENT'S DETAILS</b></legend>
+
+<div>
+FirstName:
+<input type="text" name="firstname" maxlength="20"><br>                     <!--use of maxlength-->
+</div>
+
+<div >
+LastName:
+<input type="text" name ="lastname" maxlength="20"><br>                        <!--use of maxlength-->
+</div>
+
+<div>
+Address:
+<input type="textarea" name="address" maxlength="40"><br>                        <!--use of maxlength-->
+</div>
+
+<div>
+City:
+<select>                                                                      <!--dropdown list 1-->
+  <option value=" "></option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Banglore">Banglore</option>
+  <option value="Ahmdabad">Ahmdabad</option>
+  <option value="Indore">Indore</option>
+</select>
+</div>
+
+<div>
+State:
+<select>                                                                            <!--dropdown list 2-->
+  <option value=" "></option>
+  <option value="Maharahtra">Maharahtra</option>
+  <option value="Karnataka">Karnataka</option>
+  <option value="Gujrat">Gujrat</option>
+  <option value="MP">MP</option>
+  </select>
+</div>
+<div>
+Country:
+<input type="text" name="country" value="INDIA" maxlength="6" size="6" disabled >        <!--use of disabled-->
+</div>
+
+<div >
+DOB:
+<input type="date" name="dob" max="1990-1-1" min="2000-12-31"><br>                        <!--use of max and min-->
+</div>
+
+<div>
+Gender:
+<input type="radio" name="gender" value="male" checked>Male
+<input type="radio" name="gender" value="female">Female<br>
+</div>
+
+<div>
+Mobile Number:
+<input type="text" name ="mobilenumber" maxlength="10"><br>                                  <!--use of maxlength-->
+</div>
+
+<div >
+<input type="submit" value="submit" id="sub"><br>                                      <!--tranparent submit button-->
+</div>
+
+</form>
+
+
+</body>                                                                                 <!--body end tag-->
+
+</html>                                                                                   <!--html end tag-->

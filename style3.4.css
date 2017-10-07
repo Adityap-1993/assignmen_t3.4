@@ -1,0 +1,22 @@
+body{                                                                                
+  background-color:black;
+  background-image:url("https://thetomatos.com/wp-content/uploads/2016/10/student-study-group-clipart.png");
+  background-repeat: no-repeat;
+  background-position:bottom left;
+  background-attachment: fixed;
+}
+
+
+div{                                                                        
+  margin:30px;
+  padding:5px;
+  text-align:center;
+  color:white;
+  font:50px;
+}
+
+
+#sub{                                                                    
+  background-color:transparent ; 
+  cursor:pointer ;
+}
